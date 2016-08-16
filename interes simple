@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+
+void main()
+{
+float capital, interes, periodo, interesimple;
+cout <<"introducir capital: \n";
+cin>> capital;
+cout<<"introducir interes: \n";
+cin>> interes;
+cout<<"introducir el periodo: \n";
+cin>> periodo;
+interesimple=(capital*interes*periodo)/360;
+cout<<"el interes simple es: \n" << interesimple;
+getch();
+}
