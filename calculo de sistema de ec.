@@ -1,0 +1,29 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+
+void main()
+{
+	float a,b,c,d,e,f,x,y;
+
+	cout<<"introducir los valores de la ecuacion a:\n";
+	cin>> a;
+	cout<<"introducir los valores de la ecuacion b:\n";
+	cin>> b;
+	cout<<"introducir los valores de la ecuacion c:\n";
+	cin>> c;
+	cout<<"introducir los valores de la ecuacion d:\n";
+	cin>> d;
+	cout<<"introducir los valores de la ecuacion e:\n";
+	cin>> e;
+	cout<<"introducir los valores de la ecuacion f:\n";
+	cin>> f;
+
+	y=((f*a)-(d*c))/((e*a)-(b*d));
+	x=((f-(e*y))/d);
+	cout<<" el valor de y es:"<<y;
+	cout<<"el valor de x es:\n"<<x;
+	getch();
+}
